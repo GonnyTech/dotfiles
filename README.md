@@ -1,4 +1,4 @@
-These are my dotfiles. They are a codewriting-oriented version of @RiccardoPP 's excellent dotfiles for Hyprland.
+These are my dotfiles. I personally run them on my daily used Linux laptop running Endeavour OS with Hyprland. They are a codewriting-oriented version of @RiccardoPP 's excellent dotfiles for Hyprland.
 
 The main keybindings are: 
 
