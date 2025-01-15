@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+#
+# Riccardo Palombo - https://riccardo.im
+# Preparato per la community Patreon: patreon.com/riccardopalombo
+
+# wob (on screen display info)
+$WOBSOCK $XDG_RUNTIME_DIR/wob.sock &
+
+# notifications 
+mako &
+
+# foot daemon
+foot --server &
+
+# screen lock
+swayidle -w timeout 300 'systemctl suspend' &
+
+# waybar
+home/samu/scripts/waybar_top.sh &
+home/samu/scripts/waybar_bottom.sh &
+
