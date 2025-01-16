@@ -3,11 +3,11 @@ These are my dotfiles. I personally run them on my daily used Linux laptop runni
 
 # Main keybindings
 - Win+Return = Kitty
-- Win+S = New Java file in Sublime Text
+- Win+S = New Java file in Sublime Text (if innstalled)
 - Win+B = Firefox
 - Win+G = GitHub in Firefox
-- Win+C = Visual Studio Code
-- Win+T = New Text File in Sublime Text 
+- Win+C = Visual Studio Code (if installed)
+- Win+T = New Text File in Sublime Text (if installed)
 - Win+E = Nemo
 - Win+P = Screenshot
 
