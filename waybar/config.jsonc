@@ -125,14 +125,14 @@
             "warning": 15,
             "critical": 5
         },
-        "format": "{icon}",
+        "format": "{icon} {capacity}%",
         "format-charging": "",
         "format-plugged": "",
         "format-alt": "{power}W",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""],
-        "tooltip-format": "{power}W - {capacity}%",
+        "tooltip-format": "{power}W",
     },
     "network": {
         "tooltip-format": "{ipaddr} - {signalStrength}%",
@@ -140,7 +140,7 @@
         "format-wifi": "",
         "format-disconnected": "",
         //"interface": "enp6s0", // (Optional) To force the use of this interface
-        //"format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{essid} ",
         //"format-ethernet": "{ipaddr}/{cidr} ",
         //"tooltip-format": "{ifname} via {gwaddr} ",
         //"format-linked": "{ifname} (No IP) ",
