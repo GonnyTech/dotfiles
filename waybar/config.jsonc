@@ -81,7 +81,7 @@
     "cpu": {
         "format": "[CPU {usage}%",
         "tooltip": false,
-        "on-click": "footclient --override=colors.background=000000 --title=fly-foot-tiled htop"
+        "on-click": "footclient --override=colors.background=000000 --title=fly-foot-tiled btop"
     },
     "memory": {
         "format": "RAM {}%",
