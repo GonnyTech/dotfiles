@@ -11,8 +11,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "custom/lock",
-       "wlr/workspaces"
+       "hyprland/workspaces"
     ],
     "modules-center": [
         "clock"
@@ -29,6 +28,7 @@
         "bluetooth",
         "network",
         "battery",
+        "custom/lock",
         "shutdown"
     ],
     // Modules configuration
@@ -39,7 +39,7 @@
             "deactivated": "DEACTIVATED"
         }
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "format": "{name}",
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
